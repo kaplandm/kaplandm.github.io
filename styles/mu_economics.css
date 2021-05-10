@@ -1,0 +1,344 @@
+body {
+	background-color: #000024;
+	margin-top: 2px;
+	font-size: 78%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+a {
+	color: #990000;
+	text-decoration: underline;
+}
+a:hover {
+	/* [disabled]text-decoration: none; */
+}
+a:visited {
+	color: #0033CC;
+}
+h1 {
+	font-size: 150%;
+	margin-top: 0px;
+	color: #990000;
+}
+h2 {
+	font-size: 120%;
+	color: #990000;
+}
+h3,h4,h6 {
+	color: #990000;
+}
+h5{font-size: 100%;
+	color: #990000;
+}
+/*all pages*/
+#container {
+	background-color: #CCCC99;
+	width: 840px;
+
+	margin-left: auto;
+	margin-right: auto;
+}#topinfo {
+	background-color: #000024;
+	padding: 0px;
+	margin: 0px;
+	width: 840px;
+	text-align: left;
+	color: #CCCCCC;
+	font-size: 105%;
+	vertical-align: super;
+}
+#topinfo img {
+	border: 1px solid #996600;
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px 2px 2px;
+    background-color:#FFFFFF;
+}
+#topinfo ul {
+        padding: 0px;
+        margin: 0px;
+        display: inline;
+}
+#topinfo ul li {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        list-style: none;
+        display: inline;
+		color: #666666;
+}
+#topinfo a {color:#996600;
+	padding: 0 7px 0 7px;
+}
+#masthead {
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: bottom;
+	width: 840px;
+	text-align: center;
+	border-top: 1px solid #000000;
+	border-bottom: 3px solid #000033;
+}
+#mainContentContainer {
+	background-color: #CCCC99;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mainContentContainer2 {
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+#no-navigation {
+	border: 1px solid #9999CC;
+	float: right;
+	padding: 5px 5px 5px 5px;
+	clear: none;
+	margin: 0px;
+	text-align: left;
+	line-height: 120%;
+	background-color: #FFFFFF;
+}
+#no-navigation2 {
+	border: 1px solid #9999CC;
+	padding: 5px 5px 5px 5px;
+	clear: none;
+	margin-left:auto;
+    margin-right:auto;
+	margin: 0px;
+	text-align: left;
+	line-height: 120%;
+	background-color: #FFFFFF;
+}
+/*home page*/
+#middlecolumn { 
+	background-color: #FFFFFF;
+	width: 340px;
+	padding: 0px 3px 5px 3px;
+	float: left;
+	clear: none;
+	margin: 0px;
+	border: 1px solid #9999CC;
+}
+#middlecolumn img {
+	border: 1px solid #990000;
+    margin: 0px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color:#FFFFFF;
+}
+/*1-column 2nd level pages*/
+#right {
+	border: 1px solid #9999CC;
+	float: right;
+	width: 570px;
+	padding: 5px 3px 5px 3px;
+	clear: none;
+	margin: 0px;
+	text-align: left;
+	/* [disabled]line-height: 120%; */
+	background-color: #FFFFFF;
+}
+#right img {
+	float: right;
+	border: 1px solid #990000;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color:#FFFFFF;
+}
+#right ul {
+	list-style-type: square;
+}
+#right ol {
+	list-style-type: decimal;
+	margin: 0px 0px 5px 5px;
+}
+#right li {
+	margin: 0px 0px 3px 0px;
+}
+#right table{border: 1px solid #990000;
+	background-color: #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+	color: #000000;
+}
+#right table img {
+	border: 1px solid #990000;
+	margin: 5px 5px 5px 5px;
+	padding: 2px 2px 2px 2px;
+	background-color:#FFFFFF;
+}
+#right table a {
+	color: #990000;
+}
+#right table p{
+	font-size:90%;
+	line-height:100%;
+	padding: 1px 1px 1px 5px;
+	border-left: 1px dotted #990000;
+}
+/*2-column 2nd level pages*/
+#right2column {
+	width: 275px;
+	padding: 0px 5px 5px 5px;
+	float: right;
+	clear: none;
+	margin: 0px;
+	text-align: left;
+}
+#middle2column { 
+	width: 275px;
+	padding: 0px 5px 5px 5px;
+	float: left;
+	clear: none;
+	margin: 0px;
+}
+/*all pages*/
+#navigation { 
+	background-color: #FFFFFF;
+	border: 1px solid #9999CC;
+	width: 210px;
+	padding: 0px 7px 10px 3px;
+	float: left;
+	clear: both;
+	margin: 0px 10px 10px 10px;
+	font-size: 93%;
+	font-weight:bold;
+}
+
+#footer {
+	clear: both;
+	border-top: 1px dotted #191919;
+	padding: 0px 0px 10px 30px;
+	margin-top: 5px;
+	line-height: 130%;
+	font-size: 82%;
+}
+#bottomLinks {	
+	text-align: left;
+	padding: 10px 10px 10px 0px;
+}
+#bottomLinks ul {
+        padding: 0px;
+        margin: 0px;
+        display: inline;
+}
+#bottomLinks ul li {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        list-style: none;
+        display: inline;
+		color: #666666;
+}
+#bottomLinks a {
+	padding: 0 7px 0 7px;
+}
+
+
+#breadcrumbs {
+	font-size: 90%;
+	margin: 0px;
+	padding: 2px;
+}
+.indent10 {
+	padding-left: 10px;
+}
+.indent20 {
+	padding-left: 20px;
+}
+.highlight {
+	background-color: #000033;
+	font-size:120%;
+	font-weight:bold;
+	letter-spacing: 0.2em;
+	color: #FFFFFF;
+	text-align: center;
+	margin: -2px 0px 0px 0px;
+	vertical-align: middle;
+	line-height: 120%;
+}
+.coloredtext {
+	font-size: 105%;
+	color: #006633;
+}
+.shaded {background-color:#FFF8DF;}
+.shaded2 {background-color:#FDF7F2;}
+.darktext {
+	font-size: 92%;
+	color: #0000CC;
+	font-weight: bold;
+}
+.darktext2 {
+	font-size: 92%;
+	color: #333;
+	font-weight: bold;
+}
+.instructorsyllabustext {
+	font-size: 92%;
+	color: #333333;
+}
+.tinytext {
+	font-size: 80%;
+}
+.clear {
+	clear: both;
+}
+.unbulletedList ul {
+	list-style-type: none;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	text-indent: 0px;
+}
+.unbulletedListXspacing li {
+	padding: 5px 0px 10px 0px;
+}
+.smallHeader {
+	font-weight: bold;
+	color: #333300;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	background-color:#E1E1E1;
+}
+.tiniertext {
+
+	font-size: 70%;
+}
+/* begin styles for RSS Feed */
+#rss { 
+	background-color: #FFFFFF;
+	border: 1px solid #9999CC;
+	width: 205px;
+	padding: 0px 7px 10px 5px;
+	float: left;
+	clear: none;
+	margin: 0px 7px 10px 10px;
+	font-size: 90%;
+}
+.rss-items {
+	margin-top:0px;
+	padding:0.5em; 0.5em;
+	margin-left:0px;
+	color:#000000;
+}
+p.rss-title {padding:0.5em;}
+.rss-title {
+	background-color: white;
+	color: black;
+	font-weight:bold;
+	text-align: left;
+}
+
+.rss-item  {
+  list-style:none;
+  padding-bottom:1em;
+}
+#container #mainContentContainer #right p .redtext {
+	color: #C00;
+	font-weight: bold;
+	font-size: 92%;
+}
+.Red {
+	color: #F00;
+}
+.red {
+	color: #F00;
+}
