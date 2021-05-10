@@ -1,0 +1,186 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating */
+	width: 100%;
+}
+#wrapper {
+	width: 86%;
+	background-image: none;
+	margin: 7%;
+}
+#wrapper, #wrapper #content {
+	float: none !important;
+	padding: 0;
+}
+#wrapper #content {
+	width: auto;
+	margin: 0;
+}
+#wrapper #content a {
+	color: black;
+}
+#content p, #content li {
+	font-size: 1.2em; /* was: 1.2em */ /* 12px */
+	line-height: 1.5em; /* was: 1.5em */ /* 18px */
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+}
+h1 {
+	font-size: 1.8em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+h2 {
+	font-size: 120%; /* was: 1.8em */
+	line-height: 1em;
+	font-weight: normal;
+	/* text-transform: uppercase; */
+	margin-top: 1em; /* was: margin-bottom */
+}
+h2 span {
+	border-bottom: 1px solid #dddedf;
+	padding-right: 1em;
+}
+h3 {
+	font-size: 1.6em;
+	line-height: 1.125em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 1.125em;
+}
+h4 {
+	font-size: 1.4em; /* 14px */
+	line-height: 1.285em;
+	font-weight: bold;
+	margin-bottom: 1.285em;
+}
+h5 {
+	font-size: 1.3em; /*13px*/
+	line-height: 1.385em; /*18px*/
+	font-weight: bold;
+	margin-bottom: 1.385em;
+}
+h6 {
+	font-size: 1.3em; /*13px*/
+	line-height: 1.385em; /*18px*/
+	margin-bottom: 1.385em;
+}
+table {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 100% !important;
+}
+table a {
+	text-decoration: none;
+}
+tr, th, td {
+	text-align: left;
+	width: auto;
+	height: auto;
+}
+th, td {
+	padding: .5em 1em;
+}
+th {
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: solid thin #e0e0e0;
+	padding-top: 1em;
+}
+
+#wrapper #banner {
+	border-top: solid thin gray;
+	border-bottom: solid thin gray;
+	padding: .167em 0;
+	margin-bottom: 1.8em;
+}
+#wrapper #banner h1, #wrapper #banner h2 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: gray;
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	position: relative;
+	top: auto;
+	left: auto;
+	margin: 0;
+}
+#skipNav, #nav, #leftCol, #secondNavWrapper, #breadCrumbs, fieldset { /* hide navigation for the print version */
+	display: none;
+}
+#content, #rightCol {
+	width: 100%;
+	position: relative;
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+#content p, #content li {
+	font-size: 1.2em; /* 12px */
+	line-height: 1.5em; /* 18px */
+}
+#footer {
+	padding-top: 3.6em;
+}
+#footer img {
+	display: none;
+}
+#rightCol p a, #rightCol li a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+
+/* BELOW: was missing; mostly copied from personalPages.css */
+
+.navList {
+	display: none !important;
+	color: #000000; /* was: #555 */
+	font-size: 9px; 
+	line-height: 18px; 
+	height: 18px; 
+	margin-bottom: 9px;
+     margin-top: 20px; 
+}
+.navList li {
+	height: 18px; 
+	float: left;
+	border-left: solid 1px #ccc;
+	padding: 0 38px; 
+	list-style-type: none;
+}
+.navList li.first {
+	border: none;
+	padding-left: 10; 
+}
+.navList li a {
+	font-size: 36px; 
+     color: #000000; 
+}
+
+#personalInfo img {
+	display: none !important;
+/*
+	float: left;
+	border: solid 1px #e4e4e4; 
+	padding: 4px;
+	margin: 25px 25px 10px 55px; 
+*/
+}
+
+#vitals {
+	padding: 30px 60px 12px 60px; /* UCSD: 30px 60px 12px 60px */
+}
+#content #vitals p  {
+	line-height: 21px;
+	margin-bottom: 0;
+}
+
+#moreInfo {
+	clear: both;
+	padding-bottom: 36px;
+}

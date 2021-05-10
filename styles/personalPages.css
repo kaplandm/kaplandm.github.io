@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+/* colors: https://identity.missouri.edu/colors/ */
+
+/*	Style sheets tested on and written to support IE 6, IE 7, Safari 3, Opera 9, and Firefox 2.
+	Modern standards-compliant browsers should render pages with little or no funkiness. */
+
+/*	Styles for structural elements
+	None of this should need to be altered */
+	
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif; /* changed from UCSD Helvetica */
+	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating */
+	background-color: #000000; /* changed from #000024 */ /* changed from UCSD */
+	margin-top: 35px;
+	color: #000000;
+}
+a:link {
+	color: #000000; /* was: 990000 */
+	/* background-color: #F1B82D; */   /* was: missing */
+	text-decoration: underline;
+}
+a:visited {
+	color: #000000; /* was: 990000 */ /* was: 0033CC */
+	/* background-color: #F1B82D; */  /* was: missing */
+}
+a:hover {
+	/* [disabled]text-decoration: none; */
+        background-color: #F1B82D;
+}
+#wrapper {
+	width: 640px; /* was: 780px */
+	text-align: left;
+/*	background-image: url(../images/wrapperBG_personalPages.gif);
+	background-repeat: repeat-y; */
+	background-color: #FFFFFF;
+	padding: 0px 0px 0 0px; /* was: 0 20 0 20px */
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#banner {
+	width: 780px; /* changed */
+	height: 150px;  /* changed */
+	background-image: url(../images/bannerBG_personalPages.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#banner h1, #banner ul#skipNav {
+	text-indent: -9999em;
+	height: 10px;
+	margin-bottom: 0;
+}
+#banner h2 {
+	width: 125px;
+	height: 25px;
+	position: absolute;
+	top: 70px;
+	left: 75px;
+	z-index: 600;
+}
+#banner h2 a {
+	text-indent: -9999em;
+	width: 125px;
+	height: 25px;
+	display: block;
+}
+#content {
+	width: 640px; /* was: 780px */
+	clear: both;
+	position: relative;
+	overflow: auto;
+}
+table {
+	width: 100%;
+}
+tr {
+	vertical-align: top;
+}
+th {
+	background-color: #edf7fa;
+	border-top: solid 1px #e0e0e0;
+	border-bottom: solid 1px #e0e0e0;
+	padding-top: 5px;
+	padding-bottom:4px;
+}
+td {
+	padding-top: 5px;
+	padding-bottom:4px;
+}
+#footer {
+	width: 640px; /* was: 780px */
+	height: 30px; /* UCSD: 142px */
+	background-color: #F1B82D; /* was: CCCC99 */ /* UCSD: #ffffff */
+/*	background-image: url(../images/footerBG.jpg); */
+	margin: 0 0px 0 0px; /* UCSD: 0 -20px 0 -20px */
+}
+#footer #footerContactLink {
+	font-size: 1.2em;
+	text-align: right;
+	width: 150px;
+	float: right;
+	padding-top: 18px;
+	padding-right: 35px;
+}
+#footer img {
+	margin: 17px 0 0 20px;
+}
+#footer p {
+	font-size: 10px;
+	line-height: 1.2em;
+	padding-left: 0px; /* UCSD: 35px */
+	margin-bottom: 6px;
+}
+/* old UCSD
+#footer a {
+	text-decoration: underline;
+}
+*/
+#footer a {
+	color: #000000; /* was 990000 */
+	text-decoration: underline;
+}
+#footer a:visited {
+	color: #000000; /* was: 990000 */ /* was: 0033CC */
+}
+.contentClearingDiv { /* This also provides the bottom margin for the content div */
+	width: 640px; /* was: 780px */
+	height: 1px;
+	clear: both;
+}
+
+/*	Type styles */
+
+#content p, blockquote {
+	font-size: 1.2em; /* was: 1.2em */ /* 12px */
+	line-height: 1.5em; /* was: 1.5em */ /* 18px */
+}
+#content li {
+	font-size: 1.2em; /* was: 1.2em */ /* 12px */
+	line-height: 1.5em; /* was: 1.5em */ /* 18px */
+}
+/* old UCSD
+#content a {
+	color: #37529e;
+	border-bottom: solid 1px #e3e4e7;
+}
+*/
+#content a {
+	color: #000000; /* was: 990000 */
+	/* background-color: #F1B82D; */  /* was: missing */
+	text-decoration: none;
+	border-bottom: 2px solid #F1B82D;
+}
+#content a:visited {
+	color: #000000; /* was: 990000 */ /* was: 0033CC */
+	/* background-color: #F1B82D; */  /* was: missing */
+}
+#content p a:hover, #content td a:hover {
+	/* border-bottom: solid 1px #37529e; */
+	background-color: #F1B82D;
+	/* text-decoration: none; */ /* was: missing */
+}
+#content table li, #content table p, #content li p {
+	font-size: inherit;
+	line-height: inherit;
+}
+/* old UCSD ...
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+h2, h3, h4, h5, h6, blockquote {
+	margin-bottom: 12px;
+}
+*/
+h1 {
+	font-size: 150%;
+	margin-top: 0px;
+	color: #000000;
+}
+h2 {
+	font-size: 120%;
+	color: #000000; /* was: 990000 */
+}
+h3,h4,h6 {
+	color: #000000; /* was: 990000 */
+}
+h5{font-size: 100%;
+	color: #000000; /* was: 990000 */
+}
+#content p {
+	margin-bottom: 9px;
+}
+#content h1 { /* was: missing */
+	font-size: 2.0em;
+	line-height: 1.4em;
+	font-weight: bold;
+	color: #000000; 
+}
+#content h2 {
+	font-size: 1.6em;
+	line-height: 1.4em;  /* was 1.125em */
+	font-weight: bold;
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+}
+#content h3 {
+	font-size: 1.4em;
+	line-height: 1.285em;
+	font-weight: normal;
+	text-transform: uppercase; 
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+}
+#content h4 {
+	font-size: 1.3em;
+	line-height: 1.385em;
+	font-weight: bold;
+	text-transform: uppercase; 
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+}
+#content h5 {
+	font-size: 1.3em;
+	line-height: 1.385em;
+	font-weight: normal;
+	text-transform: normal;
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+}
+#content h6 {
+	color: #000000; /* was: 990000 */ /* UCSD: #444444 */
+	font-size: 1.2em; /*12px*/
+	line-height: 1.5em; /*18px*/
+}
+blockquote {
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+	font-style: italic;
+	padding: 0 30px;
+}
+table {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+#content table h6 {
+	font-size: 1.083em;
+}
+
+/*	Specific styles for the personal pages */
+
+.navList {
+	color: #555;
+	font-size: 9px; /* was: 9px */
+	line-height: 18px; /* was: 18px */
+	height: 18px; /* was: 18px */
+	margin-bottom: 9px;
+     margin-top: 20px; /* was: missing */
+}
+.navList li {
+	height: 18px; /* was: 18px */
+	float: left;
+	border-left: solid 1px #ccc;
+	padding: 0 38px; /* was: 0 18px */
+}
+.navList li.first {
+	border: none;
+	padding-left: 10; /* was: 0 */
+}
+.navList li a {
+	font-size: 36px; /* was: 13px */
+     color: #990000; /* was: missing */
+}
+#personalInfo {
+	padding: 0;
+}
+#personalInfo img {
+	float: left;
+	border: solid 1px #e4e4e4; 
+	padding: 4px;
+	margin: 25px 25px 10px 55px; /* UCSD: 25px 25px 10px 55px */
+}
+#vitals {
+	padding: 30px 60px 12px 60px; /* UCSD: 30px 60px 12px 60px */
+}
+#content #vitals p  {
+	line-height: 21px;
+	margin-bottom: 0;
+}
+h1#name {
+	font-size: 2em;
+	line-height: 1.2em;
+	font-weight: bold;
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+	margin-bottom: 3px;
+}
+#content h2#title {
+	color: #000000; /* was: #444 */
+	text-transform: none;
+	margin-bottom: 9px;
+}
+#contact, #mailing {
+	width: 220px; /* UCSD: 200px */
+	float: left;
+	border-top: solid 1px #ccc;
+	padding-top: 18px;
+}
+#contactSummary {
+	border-top: solid 1px #ccc;
+	padding-top: 18px;
+}
+.label {
+	color: #555;
+}
+.downloadType {
+	color: #555;
+	font-size: 11px;
+}
+#moreInfo {
+	clear: both;
+	padding-bottom: 36px;
+}
+.subsection {
+	clear: both;
+	padding: 18px 0 0 0;
+}
+#content .subsection p {
+	padding-right: 30px; /* was: 120px */
+}
+.subsectionNarrow {
+	width: 75%; /* was: 50% */
+	float: left;
+	padding: 18px 0 0 0; /* UCSD: 18px 0 0 0 */
+}
+#moreInfo p, #moreInfo h3, #moreInfo h4, #moreInfo h5, #moreInfo h6 {
+	padding: 0 30px; /* UCSD: 0 50px */
+}
+#moreInfo ul {
+	padding: 0 0 0 78px;
+	margin: 0 0 18px 0;
+	list-style: square;
+}
+#moreInfo ol {
+	padding: 0 0 0 78px;
+	margin: 0 0 18px 0;
+	list-style: decimal;
+}
+#moreInfo ol ol,
+#moreInfo ul ul,
+#moreInfo ul ol,
+#moreInfo ol ul {
+	padding: 0 0 0 18px;
+	margin: 0 0 0 0;
+}
+#moreInfo ol ol {
+	list-style: lower-alpha;
+}
+#moreInfo ol ol ol {
+	list-style: lower-roman;
+}
+#moreInfo ol ol li,
+#moreInfo ul ul li,
+#moreInfo ol ul li,
+#moreInfo ul ol li {
+	font-size: inherit;
+}
+#moreInfo h4 {
+	padding-top: 9px;
+	margin-bottom: 9px;
+}
+#moreInfo h1 { /* was: h2 */
+	background-color: #F1B82D; /* was: CCCC99 */ /* UCSD: #edf7fa */
+	border-top: solid 1px #e0e0e0;
+	border-bottom: solid 1px #e0e0e0;
+	padding: 6px 0px 6px 50px; /* UCSD: 6px 60px 3px 60px */
+}
+#moreInfo h2 { /* was: missing */
+	padding-top: 9px;
+	padding-left: 19px; /* was: missing */
+	padding-right: 19px; /* was: missing */
+	margin-bottom: 9px;
+}
