@@ -9,7 +9,7 @@
 	<link href="styles/undohtml.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Eliminate inconsistent browser styling, reset sizes -->
 	<link href="styles/personalPages.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Page specific styles -->
 	<link href="styles/print.css" rel="stylesheet" type="text/css" media="print" /> <!-- Print styles -->
-<link href="images/favicon.ico?v=2" rel="icon" type="image/x-icon" />
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 <!-- google analytics -->
 <script type="text/javascript">
@@ -45,17 +45,19 @@ function getUrlVars() {
  <div id="content">
    <ul class="navList">
      <li class="first"><a href="index.html">Research</a></li>
-     <li><a href="pdfs/Kaplan_cv.pdf">CV</a></li>
+     <li><a href="https://drive.google.com/file/d/12aAzQpV8wOi168yLi688sBAjXcfsCw2B/view?usp=sharing">CV</a></li>
      <li><a href="teach.html">Teaching</a></li>
    </ul>
    <div id="personalInfo">
     <img src="images/kaplan_headshot_2020_small.jpg" alt="headshot photo" />
     <div id="vitals">
       <h1 id="name">David M. Kaplan</h1>
+	 <br/>
       <h2 id="title">Associate Professor, Economics</h2>
       <h2 id="title">University of Missouri</h2>
       <h2 id="title">kaplandm@missouri.edu</h2>
-      <h2 id="title">Office #227 <a href="https://goo.gl/maps/jkLDHokuj552">Professional Bldg</a></h2>
+      <h2 id="title">Office: moving buildings soon</h2>
+      <h2 id="title"><a href="http://scholar.google.com/citations?user=VJoplMQAAAAJ&hl=en">Google Scholar profile</a></h2>
     </div><!-- END VITALS -->
    </div> <!-- END PERSONALINFO -->
 
@@ -71,58 +73,58 @@ var i; //for-loop index
 
 var KB07 = "@inproceedings{KaplanBlei2007,<br/>&nbsp;author={Kaplan, David M. and Blei, David M.},<br/>&nbsp;title={A Computational Approach to Style in {American} Poetry},<br/>&nbsp;booktitle={Proceedings of the 7th IEEE International Conference on Data Mining (ICDM 2007)},<br/>&nbsp;publisher={IEEE Computer Society}, address={Omaha, NE},<br/>&nbsp;year={2007}, month={October}, pages={553--558},<br/>&nbsp;doi={10.1109/ICDM.2007.76}, url={https://doi.org/10.1109/ICDM.2007.76} &nbsp;}";
 
-var K10 = "@unpublished{Kaplan2010,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Natural disasters and differential household effects: evidence from the {May} 2006 {Java} earthquake},<br/>&nbsp;year={2010}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var K10 = "@unpublished{Kaplan2010,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Natural disasters and differential household effects: evidence from the {May} 2006 {Java} earthquake},<br/>&nbsp;year={2010}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-// var K11 = "@unpublished{Kaplan2011,<br/>&nbsp;author={David M. Kaplan},<br/>&nbsp;title={Improved quantile inference via fixed-smoothing asymptotics and {Edgeworth} expansion},<br/>&nbsp;year={2011}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var K11 = "@unpublished{Kaplan2011,<br/>&nbsp;author={David M. Kaplan},<br/>&nbsp;title={Improved quantile inference via fixed-smoothing asymptotics and {Edgeworth} expansion},<br/>&nbsp;year={2011}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 var K11 = "@article{Kaplan2015,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Improved quantile inference via fixed-smoothing asymptotics and {Edgeworth} expansion},<br/>&nbsp;journal={Journal of Econometrics},<br/>&nbsp;volume={185}, number={1}, pages={20--32}, year={2015},<br/>&nbsp;issn={0304-4076},<br/>&nbsp;doi={10.1016/j.jeconom.2014.08.011},<br/>&nbsp;url={https://doi.org/10.1016/j.jeconom.2014.08.011} &nbsp;}";
 
-var SK11 = "@unpublished{SunKaplan2011,<br/>&nbsp;author={Sun, Yixiao and Kaplan, David M.},<br/>&nbsp;title={Fixed-smoothing asymptotics and accurate {F} approximation using vector autoregressive variance matrix estimator},<br/>&nbsp;year={2011}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var SK11 = "@unpublished{SunKaplan2011,<br/>&nbsp;author={Sun, Yixiao and Kaplan, David M.},<br/>&nbsp;title={Fixed-smoothing asymptotics and accurate {F} approximation using vector autoregressive variance matrix estimator},<br/>&nbsp;year={2011}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-// var KS12 = "@unpublished{KaplanSun2012,<br/>&nbsp;author={David M. Kaplan and Yixiao Sun},<br/>&nbsp;title={Smoothed estimating equations for instrumental variables quantile regression},<br/>&nbsp;year={2012}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var KS12 = "@unpublished{KaplanSun2012,<br/>&nbsp;author={David M. Kaplan and Yixiao Sun},<br/>&nbsp;title={Smoothed estimating equations for instrumental variables quantile regression},<br/>&nbsp;year={2012}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 var KS12 = "@article{KaplanSun2017,<br/>&nbsp;author={Kaplan, David M. and Sun, Yixiao},<br/>&nbsp;title={Smoothed Estimating Equations for Instrumental Variables Quantile Regression},<br/>&nbsp;journal={Econometric Theory},<br/>&nbsp;volume={33}, number={1}, pages={105--157}, year={2017},<br/>&nbsp;doi={10.1017/S0266466615000407},<br/>&nbsp;url={https://doi.org/10.1017/S0266466615000407} &nbsp;}";
 
-// var GK12 = "@unpublished{GoldmanKaplan2013,<br/>&nbsp;author={Matt Goldman and David M. Kaplan},<br/>&nbsp;title={{IDEAL} quantile inference via interpolated duals of exact analytic {$L$-statistics}},<br/>&nbsp;year={2013}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var GK12 = "@unpublished{GoldmanKaplan2013,<br/>&nbsp;author={Matt Goldman and David M. Kaplan},<br/>&nbsp;title={{IDEAL} quantile inference via interpolated duals of exact analytic {$L$-statistics}},<br/>&nbsp;year={2013}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-// var K12 = "@unpublished{Kaplan2013,<br/>&nbsp;author={David M. Kaplan},<br/>&nbsp;title={{IDEAL} Inference on Conditional Quantiles via Interpolated Duals of Exact Analytic {$L$-statistics}},<br/>&nbsp;year={2013}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var K12 = "@unpublished{Kaplan2013,<br/>&nbsp;author={David M. Kaplan},<br/>&nbsp;title={{IDEAL} Inference on Conditional Quantiles via Interpolated Duals of Exact Analytic {$L$-statistics}},<br/>&nbsp;year={2013}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var KG13 = "@article{GoldmanKaplan2018c,<br/>&nbsp;author={Goldman, Matt and Kaplan, David M.},<br/>&nbsp;title={Comparing distributions by multiple testing across quantiles or {CDF} values},<br/>&nbsp;journal={Journal of Econometrics},<br/>&nbsp;year={2018}, volume={206}, number={1}, pages={143--166},<br/>&nbsp;doi={10.1016/j.jeconom.2018.04.003},<br/>&nbsp;url={https://doi.org/10.1016/j.jeconom.2018.04.003}  }";
 
-var K14 = "@unpublished{Kaplan2014,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Nonparametric inference on quantile marginal effects},<br/>&nbsp;year={2014}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var K14 = "@unpublished{Kaplan2014,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Nonparametric inference on quantile marginal effects},<br/>&nbsp;year={2014}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-// var GK14a = "@unpublished{GoldmanKaplan2016a,<br/>&nbsp;author={Matt Goldman and David M. Kaplan},<br/>&nbsp;title={Fractional order statistic approximation for nonparametric conditional quantile inference},<br/>&nbsp;year={2016}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var GK14a = "@unpublished{GoldmanKaplan2016a,<br/>&nbsp;author={Matt Goldman and David M. Kaplan},<br/>&nbsp;title={Fractional order statistic approximation for nonparametric conditional quantile inference},<br/>&nbsp;year={2016}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var GK14a = "@article{GoldmanKaplan2017,<br/>&nbsp;author={Goldman, Matt and Kaplan, David M.},<br/>&nbsp;title={Fractional order statistic approximation for nonparametric conditional quantile inference},<br/>&nbsp;journal={Journal of Econometrics},<br/>&nbsp;year={2017}, volume={196}, number={2}, pages={331--346},<br/>&nbsp;doi={10.1016/j.jeconom.2016.09.015},<br/>&nbsp;url={https://doi.org/10.1016/j.jeconom.2016.09.015}}";
 
-// var GK14b = "@unpublished{GoldmanKaplan2016b,<br/>&nbsp;author={Goldman, Matt and Kaplan, David M.},<br/>&nbsp;title={Nonparametric inference on conditional quantile differences and linear combinations, using {$L$-statistics}},<br/>&nbsp;year={2016}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var GK14b = "@unpublished{GoldmanKaplan2016b,<br/>&nbsp;author={Goldman, Matt and Kaplan, David M.},<br/>&nbsp;title={Nonparametric inference on conditional quantile differences and linear combinations, using {$L$-statistics}},<br/>&nbsp;year={2016}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var GK14b = "@article{GoldmanKaplan2018b,<br/>&nbsp;author={Goldman, Matt and Kaplan, David M.},<br/>&nbsp;title={Non-parametric inference on conditional quantile differences and linear combinations, using {$L$-statistics}},<br/>&nbsp;journal={Econometrics Journal},<br/>&nbsp;year={2018}, volume={21}, number={2}, pages={136--169},<br/>&nbsp;doi={10.1111/ectj.12095},<br/>&nbsp;url={https://doi.org/10.1111/ectj.12095}}";
 
-// var KZ16 = "@unpublished{Kaplan2016    ,<br/>&nbsp;author={Kaplan, David M.}                  ,<br/>&nbsp;title={Bayesian and frequentist tests of sign equality and other non-convex, nonlinear inequalities},<br/>&nbsp;year={2015}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
-// var KZ18 = "@unpublished{KaplanZhuo2019a,<br/>&nbsp;author={Kaplan, David M. and Zhuo, Longhao},<br/>&nbsp;title={Frequentist size of {Bayesian} inequality tests},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var KZ16 = "@unpublished{Kaplan2016    ,<br/>&nbsp;author={Kaplan, David M.}                  ,<br/>&nbsp;title={Bayesian and frequentist tests of sign equality and other non-convex, nonlinear inequalities},<br/>&nbsp;year={2015}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
+// var KZ18 = "@unpublished{KaplanZhuo2019a,<br/>&nbsp;author={Kaplan, David M. and Zhuo, Longhao},<br/>&nbsp;title={Frequentist size of {Bayesian} inequality tests},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
    var KZ18 = "@article{KaplanZhuo2021a,<br/>&nbsp;author={Kaplan, David M. and Zhuo, Longhao},<br/>&nbsp;title={Frequentist properties of {Bayesian} inequality tests},<br/>&nbsp;journal={Journal of Econometrics},<br/>&nbsp;year={2021}, volume={221}, number={1}, pages={312--336},<br/>&nbsp;url={https://doi.org/10.1016/j.jeconom.2020.05.015}&nbsp;}";
 
-var KZ19 = "@unpublished{KaplanZhuo2021b,<br/>&nbsp;author={Kaplan, David M. and Zhuo, Longhao},<br/>&nbsp;title={Comparing Latent Inequality with Ordinal Data},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var KZ19 = "@unpublished{KaplanZhuo2021b,<br/>&nbsp;author={Kaplan, David M. and Zhuo, Longhao},<br/>&nbsp;title={Comparing Latent Inequality with Ordinal Data},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-// var dCGKL18 = "@unpublished{deCastroGalvaoKaplanLiu2018,<br/>&nbsp;author={de Castro, Luciano and Galvao, Antonio F. and Kaplan, David M. and Liu, Xin},<br/>&nbsp;title={Smoothed {GMM} for quantile models},<br/>&nbsp;year={2018}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+// var dCGKL18 = "@unpublished{deCastroGalvaoKaplanLiu2018,<br/>&nbsp;author={de Castro, Luciano and Galvao, Antonio F. and Kaplan, David M. and Liu, Xin},<br/>&nbsp;title={Smoothed {GMM} for quantile models},<br/>&nbsp;year={2018}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var dCGKL18 = "@article{deCastroGalvaoKaplanLiu2019,<br/>&nbsp;author={de Castro, Luciano and Galvao, Antonio F. and Kaplan, David M. and Liu, Xin},<br/>&nbsp;title={Smoothed {GMM} for quantile models},<br/>&nbsp;journal={Journal of Econometrics},<br/>&nbsp;year={2019}, volume={213}, number={1}, pages={121--144},<br/>&nbsp;url={https://doi.org/10.1016/j.jeconom.2019.04.008}  }";
 
 var K19 = "@article{Kaplan2019,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={distcomp: Comparing distributions},<br/>&nbsp;journal={Stata Journal},<br/>&nbsp;year={2019}, volume={19}, number={4}, pages={832--848},<br/>&nbsp;doi={10.1177/1536867x19893626},<br/>&nbsp;url={https://doi.org/10.1177/1536867x19893626}  }";
 
-var biasDC = "@unpublished{Kaplan2019DandC,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Optimal Smoothing in Divide-and-Conquer for Big Data},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var biasDC = "@unpublished{Kaplan2019DandC,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Optimal Smoothing in Divide-and-Conquer for Big Data},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-var biasSCI= "@unpublished{Kaplan2019e,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Unbiased Estimation as a Public Good},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var biasSCI= "@unpublished{Kaplan2019e,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Unbiased Estimation as a Public Good},<br/>&nbsp;year={2019}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-var UQRCIA= "@unpublished{Kaplan2020UQR,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Assessing Policy Effects with Unconditional Quantile Regression},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var UQRCIA= "@unpublished{Kaplan2020UQR,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Assessing Policy Effects with Unconditional Quantile Regression},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-var KHBBQ= "@unpublished{KaplanHofmann2020,<br/>&nbsp;author={Kaplan, David M. and Hofmann, Lonnie},<br/>&nbsp;title={High-order coverage of smoothed {Bayesian} bootstrap intervals for population quantiles},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var KHBBQ= "@unpublished{KaplanHofmann2020,<br/>&nbsp;author={Kaplan, David M. and Hofmann, Lonnie},<br/>&nbsp;title={High-order coverage of smoothed {Bayesian} bootstrap intervals for population quantiles},<br/>&nbsp;year={2020}, note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var SIVQR = "@article{sivqr,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={sivqr: Smoothed IV quantile regression},<br/>&nbsp;journal={Stata Journal},<br/>&nbsp;year={XXXX}, volume={XXX}, number={XXX}, pages={XXX--XXX},<br/>&nbsp;doi={XXX},<br/>&nbsp;url={XXX}&nbsp;}";
-var SIVQR = "@unpublished{sivqr,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={sivqr: Smoothed IV quantile regression},<br/>&nbsp;year={2020}, <br/>&nbsp;note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var SIVQR = "@unpublished{sivqr,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={sivqr: Smoothed IV quantile regression},<br/>&nbsp;year={2020}, <br/>&nbsp;note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-var RSD = "@unpublished{Kaplan2020rsd,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Inference on Consensus Ranking of Distributions},<br/>&nbsp;year={2020}, <br/>&nbsp;note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var RSD = "@unpublished{Kaplan2020rsd,<br/>&nbsp;author={Kaplan, David M.},<br/>&nbsp;title={Inference on Consensus Ranking of Distributions},<br/>&nbsp;year={2020}, <br/>&nbsp;note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
-var kIVQR = "@unpublished{KaplanLiu2021,<br/>&nbsp;author={Kaplan, David M. and Liu, Xin},<br/>&nbsp;title={$k$-Class Instrumental Variables Quantile Regression},<br/>&nbsp;year={2021}, <br/>&nbsp;note={Working paper available at \\url{https://faculty.missouri.edu/kaplandm}}&nbsp;}";
+var kIVQR = "@unpublished{KaplanLiu2021,<br/>&nbsp;author={Kaplan, David M. and Liu, Xin},<br/>&nbsp;title={$k$-Class Instrumental Variables Quantile Regression},<br/>&nbsp;year={2021}, <br/>&nbsp;note={Working paper available at \\url{https://kaplandm.github.io/}}&nbsp;}";
 
 var keys=["RSD","kIVQR","KB07","K19","KZ19","KG13","SIVQR","KHBBQ","KZ18","biasSCI","dCGKL18","GK14b","GK14a","KS12","K11", "K14","K10","biasDC","SK11"]; //All possible keys, printed in this order
 // If citekey isn't in here, will just print all in order w/o bold.
