@@ -1,8 +1,8 @@
-# Feedback: KaplanDM@Missouri.edu
+# Feedback: kaplandm@missouri.edu
 # Author (original): David M. Kaplan
 # 29 March 2013 (and subsequent updates)
 # Confidence intervals (etc.) for various quantile-related objects.
-# Examples: http://faculty.missouri.edu/kaplandm/code/quantile_inf_examples_qte.R
+# Examples: https://kaplandm.github.io/code/quantile_inf_examples_qte.R
 # 
 # References (chronological):
 # 'Calculating nonparametric confidence intervals for quantiles using fractional order statistics' by Alan D. Hutson, 1999, https://doi.org/10.1080/02664769922458
@@ -10,7 +10,7 @@
 # 'Fractional order statistic approximation for nonparametric conditional quantile inference' by Matt Goldman and David M. Kaplan, 2017, https://doi.org/10.1016/j.jeconom.2016.09.015
 # 'Non-parametric inference on conditional quantile differences and linear combinations, using L-statistics' by Matt Goldman and David M. Kaplan, 2018, https://doi.org/10.1111/ectj.12095
 # 
-# See also http://faculty.missouri.edu/kaplandm/code/quantile_inf_np.R for related nonparametric inference on conditional quantile-related objects
+# See also https://kaplandm.github.io/code/quantile_inf_np.R for related nonparametric inference on conditional quantile-related objects
 
 
 ###################
