@@ -92,19 +92,19 @@ code {
 <p>
 <a href="#rsd">Inference on Consensus Ranking of Distributions</a><br/>
 <a href="#kIVQR"><i>k</i>-Class Instrumental Variables Quantile Regression</a><br/>
-<a href="#sivqr">sivqr: Smoothed IV quantile regression in Stata</a><br/>
 <a href="#ordinal">Comparing Latent Inequality with Ordinal Data</a><br/>
-<a href="#BBQ">High-order coverage of smoothed Bayesian bootstrap intervals for population quantiles</a><br/>
 </p>
 <p>
-<a href="#Bayesfreq">Frequentist properties of Bayesian inequality tests</a> (<i>JoE</i>)<br/>
 <a href="#distinf">Comparing distributions by multiple testing</a> (<i>JoE</i>)<br/>
 <a href="#distcomp">distcomp: Comparing distributions</a> (<i>Stata Journal</i>)<br/>
 <a href="#SEEIVQR">Smoothed estimating equations for IV quantile regression</a> (<i>ET</i>)<br/>
+<a href="#sivqr">sivqr: Smoothed IV quantile regression</a> (<i>Stata Journal</i>)<br/>
+<a href="#Bayesfreq">Frequentist properties of Bayesian inequality tests</a> (<i>JoE</i>)<br/>
 <a href="#SGMM">Smoothed GMM for quantile models</a> (<i>JoE</i>)<br/>
 <a href="#U2C2">Inference on (conditional) quantile differences and interquantile ranges</a> (<i>EctJ</i>)<br/>
 <a href="#U1C1">Fractional order statistic quantile inference</a> (<i>JoE</i>)<br/>
 <a href="#Edgeworth">Quantile inference by fixed-smoothing asymptotics and Edgeworth expansion</a> (<i>JoE</i>)<br/>
+<a href="#BBQ">High-order Coverage of Smoothed Bayesian Bootstrap Intervals for Population Quantiles (<i>Austrian Journal of Statistics</i>)</a><br/>
 <a href="#poetry">A computational approach to style in American poetry</a> (<i>Int'l Conf Data Mining</i>)
 </p>
 <p><a href="#resting">Resting/superseded</a></p>
@@ -152,29 +152,6 @@ Applying k-class estimation to IVQR can reliably reduce median bias for certain 
 </p>
 
 
-<a name="sivqr"></a>
-<h2>
-sivqr: Smoothed IV quantile regression (in Stata)
-</h2>
-<p>
-2020/2022, <i>submitted</i>
-</p>
-<p>
-<a href="https://drive.google.com/file/d/1GdxgSI3P3-jOHUiQT6t23ffRzWZC6wkB/view">paper</a>
- | <a href="https://drive.google.com/file/d/1nOq4XAOi2AbE2KOgc3B63aIqkhRbW0JL/view">code/tex/etc.</a>
- | <a href="bibtex.html?citekey=SIVQR">.bib</a>
-</p><p>
-New Stata command; implements <a href="#SEEIVQR">Kaplan and Sun (2017)</a>
-</p><p>
-In Stata:  issue command 
-<br/>
-<code>net from https://kaplandm.github.io/stata</code> 
-<br/>
-and follow instructions for installation (and email me if you have problems).
-Note: older Stata versions do not support https, in which case you can download the "code/tex/etc." .zip file above.
-</p>
-
-
 <a name="ordinal"></a>
 <h2>
 Comparing Latent Inequality with Ordinal Data
@@ -191,24 +168,6 @@ Comparing Latent Inequality with Ordinal Data
 New methods to compare two latent distributions (better? more dispersed?) when only ordinal data are available, without unrealistic assumptions.
 </p>
 
-
-<a name="BBQ"></a>
-<h2>
-High-order coverage of smoothed Bayesian bootstrap intervals for population quantiles
-</h2>
-<p>2019/2022, <i>submitted</i>
-<br/>(with <a href="https://economics.missouri.edu/grad/phd-student-placement-history">Lonnie Hofmann</a>)
-</p>
-<p>
-<a href="https://drive.google.com/file/d/1SP4hQ5z_EwwwPnok0RSwtQkGAzIPICWi/view">paper</a>
- | <a href="https://drive.google.com/file/d/1tLw9lNQ05I2_EcZCA97S1QExL_o3a3Vq/view">code/tex/etc.</a>
- | <a href="bibtex.html?citekey=KHBBQ">.bib</a>
-</p><p>
-Motivating further study in other settings, some results for continuity-corrected Bayesian bootstrap (<a href="https://www.jstor.org/stable/2336308">Banks, 1988</a>) confidence intervals for population quantiles:
-<br/>
-(very) high-order accurate &middot; exact in special cases &middot; no smoothing parameter required
-</p>
-
 </div>
 
 
@@ -218,6 +177,50 @@ Motivating further study in other settings, some results for continuity-correcte
 <br/>
 <p><a href="https://drive.google.com/drive/folders/0B-_LUSJVBv20V0Z1dEpwZU1NTW8?resourcekey=0-p4E2RmvMA1trEePkpO9-NA&usp=sharing">Browse the directory</a> of all draft PDFs, replication .zip files, etc.</p>
 
+
+<a name="sivqr"></a>
+<h2>
+sivqr: Smoothed IV quantile regression
+</h2>
+<p>
+Forthcoming, <i>Stata Journal</i>
+</p>
+<p>
+<a href="https://doi.org/XXX"></a>published
+ | <a href="https://drive.google.com/file/d/1GdxgSI3P3-jOHUiQT6t23ffRzWZC6wkB/view">accepted</a>
+ | <a href="https://drive.google.com/file/d/1nOq4XAOi2AbE2KOgc3B63aIqkhRbW0JL/view">code/tex/etc.</a>
+ | <a href="bibtex.html?citekey=SIVQR">.bib</a>
+</p><p>
+Stata command implementing <a href="#SEEIVQR">Kaplan and Sun (2017)</a>
+</p><p>
+In Stata:  issue command 
+<br/>
+<code>net from https://kaplandm.github.io/stata</code> 
+<br/>
+and follow instructions for installation (and email me if you have problems).
+Note: older Stata versions do not support https, in which case you can download the "code/tex/etc." .zip file above.
+</p>
+
+
+<a name="BBQ"></a>
+<h2>
+High-order Coverage of Smoothed Bayesian Bootstrap Intervals for Population Quantiles
+</h2>
+<p>Forthcoming, <i>Austrian Journal of Statistics</i>
+<br/>(with <a href="https://economics.missouri.edu/grad/phd-student-placement-history">Lonnie Hofmann</a>)
+</p>
+<p>
+<a href="https://doi.org/XXX"></a>published
+ | <a href="https://drive.google.com/file/d/1SP4hQ5z_EwwwPnok0RSwtQkGAzIPICWi/view">accepted</a>
+ | <a href="https://drive.google.com/file/d/1tLw9lNQ05I2_EcZCA97S1QExL_o3a3Vq/view">code/tex/etc.</a>
+ | <a href="bibtex.html?citekey=KHBBQ">.bib</a>
+</p><p>
+Motivating further study in other settings, some results for continuity-corrected Bayesian bootstrap (<a href="https://www.jstor.org/stable/2336308">Banks, 1988</a>) confidence intervals for population quantiles:
+<br/>
+(very) high-order accurate &middot; exact in special cases &middot; no smoothing parameter required
+</p>
+
+	
 <a name="Bayesfreq"></a>
 <h2>
 Frequentist properties of Bayesian inequality tests
