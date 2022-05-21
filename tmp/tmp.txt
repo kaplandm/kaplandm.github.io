@@ -1,2 +1,3 @@
 tmp stuff here
 2022a_qual_metrics.pdf
+2022a_qual_macro.pdf
