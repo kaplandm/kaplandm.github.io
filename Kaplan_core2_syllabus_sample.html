@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Syllabus: Econometrics (Kaplan)</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    table { border-collapse:collapse; }
+    table thead th { border-bottom: 1px solid #000; border-top: 1px solid #000; }
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 data-number="1" id="basic-information"><span
+class="header-section-number">1</span> Basic Information</h1>
+<p><strong>Course Prerequisite(s)</strong> ECONOM 9472 or instructor&#x2019;s
+consent</p>
+<p><strong>Class Meetings</strong> Tuesdays and Thursdays 12:30&#x2013;1:45pm,
+E204A <a
+href="https://www.google.com/maps/place/Locust+Street+Bldg,+Columbia,+MO+65201/@38.949745,-92.3322604,17z/data=!3m1!4b1!4m5!3m4!1s0x87dcb7c5c5978b3d:0xf7ac560c262ce7a9!8m2!3d38.9497408!4d-92.3300717">Locust
+Street Building</a>; except January 24 &amp; 31 (both Tuesdays) will be
+in <a href="https://goo.gl/maps/iEZ5HT4Jm3fBfPj78">Middlebush Hall</a>
+room 7 (computer lab in basement) to use Stata</p>
+<p><strong>Instructor</strong> <a
+href="https://kaplandm.github.io">David M.&#xA0;Kaplan</a> (I prefer &#x201C;Dave&#x201D;
+but also go by &#x201C;Professor Kaplan&#x201D; or &#x201C;Dr.&#xA0;Dave&#x201D; or whatever other
+combination you feel comfortable with), E221 <a
+href="https://www.google.com/maps/place/Locust+Street+Bldg,+Columbia,+MO+65201/@38.949745,-92.3322604,17z/data=!3m1!4b1!4m5!3m4!1s0x87dcb7c5c5978b3d:0xf7ac560c262ce7a9!8m2!3d38.9497408!4d-92.3300717">Locust
+Street Building</a>, office hours Wednesdays 10:30&#x2013;11:30am or by
+appointment (email me), kaplandm@missouri.edu</p>
+<p><strong>Texts and Materials</strong> We will use the <em>PhD Core
+Econometrics II</em> developed specifically for this course <span
+class="citation" data-cites="Kaplan2023core2"></span>. The free digital
+PDF version is available on my website, <a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and
+I will provide you with a hard copy printed by Mizzou Publishing within
+the first few weeks of the semester.</p>
+<p><strong>Software</strong> Stata can be used in the on-campus computer
+labs listed at <a
+href="https://doit.missouri.edu/services/computing-sites/sites-software/"
+class="uri">https://doit.missouri.edu/services/computing-sites/sites-software/</a>,
+which currently includes the basement computer lab in room 7 of <a
+href="https://goo.gl/maps/49bNiMYMh87Diyd19">Middlebush Hall</a>. Stata
+can also be used from home via Mizzou&#x2019;s <a
+href="https://doit.missouri.edu/services/software/software-anywhere/">Software
+Anywhere</a>, just make sure to save your work (to your own computer or
+email) frequently to avoid losing progress.</p>
+<p><strong>Course Website</strong> There will be a Canvas course website
+(<a href="https://canvas.umsystem.edu/"
+class="uri">https://canvas.umsystem.edu/</a>). I&#x2019;ll mostly just post
+announcements (if necessary) and assignments. Make sure your settings
+are such that you get emailed when a new announcement (etc.)&#xA0;is posted.
+If you cannot access the Canvas site, please let me know ASAP.</p>
+<h1 data-number="2" id="learning-objectives"><span
+class="header-section-number">2</span> Learning objectives</h1>
+<p>By the end of the course, you&#x2019;ll be able to do the following.</p>
+<ul>
+<li><p><span id="TLO:terms" label="TLO:terms"></span> Define terms and
+concepts, both mathematically and intuitively.</p></li>
+<li><p><span id="TLO:intuition" label="TLO:intuition"></span> Develop
+intuition for fundamental concepts to enable you to understand
+econometrics papers/books that you need to read later for your own
+research.</p></li>
+<li><p><span id="TLO:methods" label="TLO:methods"></span> Describe
+various econometric methods both mathematically and intuitively,
+including their objects of interest and assumptions, and the logical
+relationship between the assumptions and corresponding theorems and
+properties.</p></li>
+<li><p><span id="TLO:significance" label="TLO:significance"></span> For
+a given economic question, dataset, and econometric method, judge
+whether the method is appropriate and assess the economic significance
+and statistical significance of the results.</p></li>
+<li><p><span id="TLO:Stata" label="TLO:Stata"></span> Use Stata to
+manipulate and analyze data, interpreting results both economically and
+statistically.</p></li>
+</ul>
+<h1 data-number="3" id="classes"><span
+class="header-section-number">3</span> Classes</h1>
+<p>Generally, each class follows the same structure.</p>
+<ol type="1">
+<li><p>First, you may ask any questions about the textbook material
+(including, &#x201C;Could you please explain the part about ___?&#x201D;).</p></li>
+<li><p>Second, I will alternate presenting material / lecturing with
+Discussion Questions (DQs). You first discuss the DQ with somebody
+sitting near you; then you share your (or your partner&#x2019;s!)&#xA0;ideas with
+the full class.</p></li>
+<li><p>Third, there is usually (hopefully?)&#xA0;time to ask additional
+questions at the end.</p></li>
+</ol>
+<p>Before each class, I expect you to prepare enough to participate in
+class. For some of you, it may be sufficient to simply show up and
+listen carefully, without any pre-class preparation. For others, you may
+find you need to peek ahead in the textbook to understand enough to
+participate in the DQs, or even to realize what you don&#x2019;t understand
+enough to ask a question about it.</p>
+<p>Table <a href="#tab:schedule" data-reference-type="ref"
+data-reference="tab:schedule">1</a> shows the schedule of class
+topics.</p>
+<h1 data-number="4" id="schedule-of-topics-and-assignments"><span
+class="header-section-number">4</span> Schedule of Topics and
+Assignments</h1>
+<p>See Table <a href="#tab:schedule" data-reference-type="ref"
+data-reference="tab:schedule">1</a> for the schedule of topics/chapters
+and exams. In addition to the two exams, there will be four exercise
+sets total, one per part, each consisting of a subset of the end-of-part
+exercises in the textbook.</p>
+<div id="tab:schedule">
+<table>
+<caption>Table 1: Order of topics and exams.</caption>
+<thead>
+<tr class="header" style="border-bottom: 1px solid #000; border-top: 1px solid #000;">
+<th style="text-align: left;">Part</th>
+<th style="text-align: left;">Topics</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">I</td>
+<td style="text-align: left;">Foundations of identification in
+structural and treatment effect models</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I</td>
+<td style="text-align: left;">Stata: class in Middlebush 7 on Jan.&#xA0;24
+&amp; 31 (Tuesdays)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">II</td>
+<td style="text-align: left;">IV and GMM</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">I&#x2013;II</td>
+<td style="text-align: left;">Midterm exam: in class, date TBD</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">III</td>
+<td style="text-align: left;">Panel data</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">IV</td>
+<td style="text-align: left;">Probit: binary response models,
+prediction, and (quasi-)maximum likelihood</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">I&#x2013;IV</td>
+<td style="text-align: left;">Final exam: 10am&#x2013;12pm May 12 in E204A</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 data-number="5" id="grading-criteria"><span
+class="header-section-number">5</span> Grading Criteria</h1>
+<p>Plus/minus grading is used in this course, and the final exam is
+mandatory. Relative weighting of assignments, participation, and exams
+is shown in Table <a href="#tab:grading-pts" data-reference-type="ref"
+data-reference="tab:grading-pts">2</a>.</p>
+<div id="tab:grading-pts">
+<table>
+<caption>Table 2: Relative weighting of assignments.</caption>
+<thead>
+<tr class="header" style="border-bottom: 1px solid #000; border-top: 1px solid #000;">
+<th style="text-align: left;">Assignment</th>
+<th style="text-align: right;">Percent of total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Participation</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ES #1</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ES #2</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Midterm exam</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ES #3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ES #4</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Final exam</td>
+<td style="text-align: right;">25</td>
+</tr>
+<tr class="even" style="border-bottom: 1px solid #000; border-top: 1px solid #000;">
+<td style="text-align: left;">Total</td>
+<td style="text-align: right;">100</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Participation is graded by effort. Whether you say something &#x201C;right&#x201D;
+or &#x201C;smart&#x201D; is irrelevant. In fact, this is a good opportunity to get
+comfortable with being wrong and feeling dumb, which will aid your later
+transition from classwork to research. (I do expect that after a few
+years of research you&#x2019;ll be an expert on your dissertation topic, but I
+have no such expectations now.) If you make a &#x201C;good faith&#x201D; (sincere)
+effort to participate in every class meeting, then you&#x2019;ll get 100% for
+this component of your grade. This includes both asking questions at the
+beginning of class and participating in the Discussion Questions. If you
+are always confused and never have &#x201C;answers&#x201D; but ask your very basic
+questions, that counts just as fully as if you&#x2019;re never confused and
+never have questions but always respond to the in-class discussion
+questions.</p>
+<p>On exams, you will be allowed to use the textbook, your notes, and
+any other printed materials, but you may not have any electronics
+(laptop, phone, etc.). You may discuss exercise sets with your
+classmates, but you must turn in your own work. As in research, always
+cite your sources, whether the textbook, a classmate, something online,
+etc.; see the Academic Integrity section below.</p>
+<p>Letter grades will be mapped in the usual way, i.e., A range is
+90&#x2013;100%, B range 80&#x2013;89.99%, C 70&#x2013;79.99%, F below that. Any &#x201C;curve,&#x201D; if
+it seems appropriate, will <em>not</em> enforce predetermined grade
+<em>proportions</em> but rather move everyone up together; that is, you
+are not competing with the student next to you for a fixed number of A
+grades.</p>
+<h1 data-number="6" id="penalties-for-late-work"><span
+class="header-section-number">6</span> Penalties for Late Work</h1>
+<p>Assignments turned in late but before the beginning of the next class
+will receive half the points earned. After the beginning of the next
+class, no credit will be given, though I am happy to still give feedback
+on the work if you turn it in (to help you learn).</p>
+<p>You are expected to take the exams at the scheduled times. In case of
+an emergency such as serious injury/illness, you must contact me
+immediately (i.e., before the exam) to request a makeup. (It doesn&#x2019;t
+matter whether or not I read your email before the exam, just that you
+sent it before.) If you miss (and don&#x2019;t make up) the midterm or final,
+then you will receive an &#x201C;incomplete&#x201D; for your semester grade.</p>
+<h1 data-number="7" id="grading-questions"><span
+class="header-section-number">7</span> Grading Questions</h1>
+<p>Graded work will be returned toward the end of class. You will have
+the rest of class time to review the comments and ask questions. If you
+think something in the scoring is amiss (points added incorrectly, logic
+misunderstood, etc.), then just let me know and leave the work with me
+to review. If it is a non-trivial question, I may review the work in its
+entirety and adjust other parts up or down if there are other
+inconsistencies with the grading rubric. Otherwise, after leaving the
+classroom with your work, you may still ask me questions about it, but
+the recorded grade will not be changed.</p>
+<h1 data-number="8" id="academic-integrity"><span
+class="header-section-number">8</span> Academic Integrity</h1>
+<p>As will be the case after you graduate, collaboration and use of
+whatever books/papers/tutorials you can find will be generally permitted
+in this class, except as noted for exams. However, as will be the case
+after you graduate, integrity is still important. If you use something,
+cite it, whether a paper, book, person, or URL. If you collaborate with
+other students, note this at the top of your ES. If you&#x2019;re not sure
+whether to cite something, err on the side of including too many
+citations.</p>
+<p>Below are more formal statements about academic integrity, which you
+may have already read on another syllabus.</p>
+<p>Academic integrity is fundamental to the activities and principles of
+a university. All members of the academic community must be confident
+that each person&#x2019;s work has been responsibly and honorably acquired,
+developed, and presented. Any effort to gain an advantage not given to
+all students is dishonest whether or not the effort is successful. The
+academic community regards breaches of the academic integrity rules as
+extremely serious matters.</p>
+<p>Link: <a href="https://oai.missouri.edu/students/">Standard of
+Conduct for Academic Integrity</a></p>
+<p>In addition, you are expected to adhere to the following honor pledge
+on all graded work, whether or not explicitly asked in advance to do so:
+&#x201C;I strive to uphold the University values of respect, responsibility,
+discovery, and excellence. On my honor, I pledge that I have neither
+given nor received unauthorized assistance on this work.&#x201D;</p>
+<p>Further details on academic integrity are in Canvas: in &#x201C;Support
+&amp; Policies,&#x201D; under &#x201C;MU Policies &amp; Expectations,&#x201D; please read
+&#x201C;Academic Integrity.&#x201D;</p>
+<h1 data-number="9" id="other-policies"><span
+class="header-section-number">9</span> Other Policies</h1>
+<p>These are mostly standard policies provided by the University; you
+may have already seen the exact same statements on the syllabus for
+other classes. That said, they are still helpful to be aware of.</p>
+<h2 data-number="9.1" id="mental-health"><span
+class="header-section-number">9.1</span> Mental Health</h2>
+<p>Personal note: it is very common for Economics PhD students to have
+depression and anxiety. <a href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a> For your long-term PhD success, it
+is equally important to spend time working on your mental (and physical)
+health as on your academic work. One perk of being a student is the
+availability of many free/low-cost mental health resources (see
+below).</p>
+<p>The University of Missouri is committed to supporting student
+well-being through an integrated network of care, with a wide range of
+services to help students succeed. The MU Counseling Center offers
+professional mental health care, and can help you find the best approach
+to treatment based on your needs. Call to make an appointment at
+573-882-6601. Any student in crisis may call or go to the MU Counseling
+Center between 8am&#x2013;5pm Monday through Friday. After hours phone support
+is available at 573-882-6601. Visit our website at <a
+href="https://wellbeing.missouri.edu/"
+class="uri">https://wellbeing.missouri.edu/</a> to take an online mental
+health screening, find out about workshops and resources that can help
+you thrive, or learn how to support a friend. Download Sanvello, a phone
+app that teaches skills and strategies to help you maintain good mental
+health. Log in with your Mizzou email to unlock all the tools available
+through Sanvello at no additional cost to you.</p>
+<h2 data-number="9.2" id="students-with-disabilities"><span
+class="header-section-number">9.2</span> Students with Disabilities</h2>
+<p>If you anticipate barriers related to the format or requirements of
+this course, if you have emergency medical information to share with me,
+or if you need to make arrangements in case the building must be
+evacuated, please let me know as soon as possible.</p>
+<p>If disability-related accommodations are necessary (for example, a
+note-taker, extended time on exams, captioning), please establish an
+accommodation plan with the <a
+href="https://disabilitycenter.missouri.edu/">MU Disability Center</a>
+(S5 Memorial Union, 573-882-4696) and then notify me of your eligibility
+for reasonable accommodations. For other MU resources for persons with
+disabilities, click on &#x201C;Disability Resources&#x201D; on the MU homepage, or
+click on &#x201C;Students with Disabilities&#x201D; in Canvas in &#x201C;Support &amp;
+Policies&#x201D; under &#x201C;MU Policies &amp; Expectations.&#x201D;</p>
+<h2 data-number="9.3" id="acceptable-use"><span
+class="header-section-number">9.3</span> Acceptable Use</h2>
+<p>The University of Missouri&#x2019;s Acceptable Use Policy (AUP) for
+information technology applies to Mizzou websites. The AUP addresses
+federal and state laws, university regulations, intellectual-property
+rights, software-licensing requirements, and prohibitions against
+plagiarism and obscenity. This policy applies to all users including
+faculty, staff, students, and guest users of University of Missouri
+computer networks, equipment, or connecting resources.</p>
+<p>Link: <a
+href="https://www.umsystem.edu/ums/rules/collected_rules/facilities/ch110/110.005_acceptable_use_policy">UM
+System Acceptable Use Policy</a></p>
+<h2 data-number="9.4" id="copyright"><span
+class="header-section-number">9.4</span> Copyright</h2>
+<p>This section helps you understand copyright in course materials,
+student work and pages published on Mizzou websites.</p>
+<p>Link: <a href="https://www.umsystem.edu/ums/copyright/">UM System
+Copyright Information</a></p>
+<h2 data-number="9.5" id="executive-order-no.-38"><span
+class="header-section-number">9.5</span> Executive Order No.&#xA0;38</h2>
+<p>When you record something that happens in a course (a lecture, class
+discussions, meetings, etc.), it has an impact on the rights of the
+people captured in that recording. For example, your instructor and the
+University may have rights to the intellectual property contained in
+that recording. At the same time, another student who may have been
+recorded has the right to privacy. In order to protect these rights, MU
+employs a policy (called &#x201C;Executive Order No.&#xA0;38&#x201D;) to govern both
+situations you may encounter while taking a course, i.e., when your
+instructor does or does not allow recordings.</p>
+<p>Link: <a
+href="https://www.umsystem.edu/ums/rules/collected_rules/programs/ch200/200.015_academic_inquiry_course_discussion_and_privacy">Executive
+Order No.&#xA0;38</a></p>
+<h2 data-number="9.6" id="ferpa"><span
+class="header-section-number">9.6</span> FERPA</h2>
+<p>The University of Missouri maintains educational records of students
+in accordance with the Family Educational Rights and Privacy Act of 1974
+(FERPA). Related topics include privacy policies at MU, display of
+student directory information, and details about how MU manages
+FERPA-protected information.</p>
+<p>Link: <a
+href="https://registrar.missouri.edu/policies-procedures/ferpa/">Family
+Educational Rights and Privacy Act (FERPA)</a></p>
+<h2 data-number="9.7" id="intellectual-pluralism"><span
+class="header-section-number">9.7</span> Intellectual Pluralism</h2>
+<p>The University community welcomes intellectual diversity and respects
+student rights. Students who have questions or concerns regarding the
+atmosphere in this class (including respect for diverse opinions) may
+contact the departmental chair or divisional director, the director of
+the Office of Students Rights and Responsibilities, or the MU Office of
+Institutional Equity.</p>
+<p>Link: <a
+href="https://oai.missouri.edu/about/intellectual-pluralism/">Statement
+on Intellectual Pluralism</a></p>
+<h2 data-number="9.8" id="statement-of-nondiscrimination"><span
+class="header-section-number">9.8</span> Statement of
+Nondiscrimination</h2>
+<p>The University of Missouri does not discriminate on the basis of
+race, color, religion, national origin, sex, sexual orientation, gender
+identity, age, genetics information, disability, or status as a
+protected veteran.</p>
+<p>Link: <a href="https://missouri.edu/eeo-aa">MU Statement of
+Nondiscrimination</a></p>
+<p>If you experience discrimination or sexual violence, you are
+encouraged (but not required) to report the incident to the MU Office of
+Institutional Equity. Learn more about your rights and options at the <a
+href="https://equity.missouri.edu/">Office of Institutional Equity</a>
+or by calling 573-882-3880. You also may make an anonymous report
+online.</p>
+<p>If you are a survivor, or someone concerned about a survivor, and
+need immediate information on what to do, see <a
+href="https://rsvp.missouri.edu/students/resources/">RSVP resources
+page</a>. Both the Office of Institutional Equity and the RSVP Center
+can provide assistance to students who need help with academics,
+housing, or other issues.</p>
+<p>Note: (almost) all Mizzou employees are &#x201C;mandated reporters,&#x201D; meaning
+that if you choose to write or speak with me about having experienced
+any of these forms of prohibited discrimination or harassment, <a
+href="https://equity.missouri.edu/reporting-and-policies/">Mizzou
+policies require</a> that I share this information with the MU Office of
+Institutional Equity. They will contact you to offer information about
+resources, as well as your rights and options as a member of our campus
+community.</p>
+<h2 data-number="9.9" id="religious-holidays-accommodations"><span
+class="header-section-number">9.9</span> Religious Holidays &amp;
+Accommodations</h2>
+<p>Many religious faiths are represented in the student body. The
+University of Missouri does not restrict student free exercise of
+religion, unless 1) the restriction is in the form of a rule of general
+applicability, and does not discriminate against religion or among
+religions; and 2) it can be demonstrated that the application of the
+restriction is essential to furthering a compelling university interest,
+and is not unduly restrictive considering the relevant circumstance. The
+policy of the University attempts to strike a reasonable balance between
+accommodating the religious practice of students and meeting academic
+needs and standard. Consult IDE&#x2019;s Guide to Religions for the form that
+can be used to notify an instructor of an absence associated with
+religious practice. Students are expected to notify their instructor(s)
+by completing and submitting this form in a manner that is consistent
+with the procedure outlined in the university&#x2019;s policy on student
+religious accommodation. Providing false information regarding sincerely
+held religious practice is a violation of the university&#x2019;s Standard of
+Conduct and will not be tolerated.</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://kaplandm.github.io/teach.html#core2"
+class="uri">https://kaplandm.github.io/teach.html#core2</a><a
+href="#fnref1" class="footnote-back" role="doc-backlink">&#x21A9;&#xFE0E;</a></p></li>
+<li id="fn2"><p><a
+href="https://www.aeaweb.org/articles?id=10.1257/jel.20201555"
+class="uri">https://www.aeaweb.org/articles?id=10.1257/jel.20201555</a><a
+href="#fnref2" class="footnote-back" role="doc-backlink">&#x21A9;&#xFE0E;</a></p></li>
+</ol>
+</section>
+</body>
+</html>
