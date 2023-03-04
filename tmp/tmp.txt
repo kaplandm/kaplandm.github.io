@@ -1,3 +1,70 @@
 tmp stuff here
+
+Job talk: Mrs. Keith's kindergarten class
+Monday, 6 March 2023
+
+I. Introduction
+1. most important job: Oren's dad (and Nova's)
+   a. walk to/from school, care when sick, taxes, etc.
+2. also: Mizzou professor in econometrics (5 syllables!)
+   a. teaching (20%), like what your teacher does; also 1-on-1 "advising" for PhD students, some of whom then become professors when they graduate
+   b. service/helping (30%)
+      i. ex: director of PhD program (students are adults! and from many countries: Iran, China, India, Ecuador, Korea, Tunisia, Bangladesh, etc.)
+      ii. ex: dept website (show later?)
+   c. research (50%), trying to learn new things about the world that nobody else knew before, and building tools to help other people learn new things, too
+   d. my website: https://kaplandm.github.io/
+      i. research (briefly), including slides from TAMU (stick figures)
+      ii. Google Scholar: can see other people using the tools I made to learn more about the world.  (Also poetry!)
+      iii. teaching, including Mizzou Store link
+
+II. Skills
+1. writing
+   a. textbook
+      i. show: Alice, pictures, code, math, Practice!
+      ii. pass around
+   b. research papers (communicating the new things I learn and make to other people, so they can use them)
+   c. emails to students
+2. math
+   a. what is math?
+   b. grad school proofs (unfold, place on ground somewhere? pass around?)
+   c. very few numbers: numbers can help you learn about math, but math is more about patterns and relationships
+      i. ex: if I told you the height of every student in this room and the height of their parent, we'd have a lot of numbers, pretty confusing!  but if I told you that taller kids usually have taller parents, that's more useful.  the letters help represent these relationships, like P for parent and K for kid.
+3. reading
+   a. References at end of textbook...I read those!  besides the word "econometrics" (how many syllables? 5), cool words like monotonicity (6), overidentification (8), heteroskedasticity (8)
+   b. referee paper (pass around separate sheets): read and help other people with their research; not only students, but other professors who don't know me (I remain a mystery, "anonymous")
+4. video creation
+   a. [1min] animal logic: https://youtu.be/i1WNQdT32zg
+   b. [3min?] animal OVB: https://youtu.be/dqoI8qA-it4
+5. coding
+   a. help other people do complicated things easily
+   b. most important: turn one big problem into multiple smaller problems, until they're small enough to figure out
+6. presentations (like this!) at "conferences" and "seminars" (explain briefly)
+
+III. Summarizing distributions
+1. where is Mrs. Keith's class?
+   a. could say where every single student is...too hard to say, too much information.
+   b. can summarize/represent by a single point?
+2. stand up, get into 2 groups (if odd+odd) or 3 groups (if odd+odd+odd), stand in a line.
+   a. who is in the "middle" of your group?
+      i. maybe we can just say your "group" is wherever the middle person is?
+   b. staying in a line, try to find a way for your group's location to change without the middle person moving.
+   c. can your group get more spread out without the middle person moving?
+   d. can your group get more squished together without the middle person moving?
+3. part of my research tries to help us learn about how a group is changing in ways that just looking at the middle can miss.
+
+IV. [optional] Correlation vs. causation
+1. when Oren and I walk to school in the morning, we notice that when we see other people with open umbrellas, we arrive at school wet
+   a. if you all open umbrellas right now, will it get me wet? [...] why not?
+2. 
+
+V. Conclusion
+1. I love being a professor because I love learning new things (research) and helping others learn new things (research, teaching, advising)
+  a. you can read to learn new things from others
+  b. you can write to help others learn from you
+2. as an econometrics professor, you can use math and computers to help find patterns and relationships
+3. thanks for participating and listening!
+4. any questions?
+
+
 2022a_qual_metrics.pdf
 2022a_qual_macro.pdf
