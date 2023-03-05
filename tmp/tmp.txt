@@ -55,9 +55,22 @@ III. Summarizing distributions
 IV. [optional] Correlation vs. causation
 1. when Oren and I walk to school in the morning, we notice that when we see other people with open umbrellas, we arrive at school wet
    a. if you all open umbrellas right now, will it get me wet? [...] why not?
-2. 
+2. OTHER EXAMPLES? OR JUST SKIP...
 
-V. Conclusion
+V. Prediction
+1. I have a bag with 7(?) tennis balls: five have X, two have 4
+2. If we pull one out without looking: which would you guess we get?
+   a. have kid come pull one out, see what it is
+   b. were we right?
+3. (without replacement) now 6 balls left, __ with X, __ with 4; guess?
+   a. have kid pull one out, see what it is
+   b. were we right?
+4. keep repeating
+   a. eventually all same left, can guess 100%
+   b. at some point hopefully pull out less-likely ball; did we make a bad guess? (don't answer)
+   c. can put all balls back in once if more kids want to play
+
+VI. Conclusion
 1. I love being a professor because I love learning new things (research) and helping others learn new things (research, teaching, advising)
   a. you can read to learn new things from others
   b. you can write to help others learn from you
