@@ -30,7 +30,7 @@ a:hover {
 }
 #wrapper {
 	/* width: 640px; */ /* was: 780px */
-      max-width: 800px; /* new, replaces width, so auto sizes on mobile...hopefully? */
+      max-width: 640px; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	text-align: left;
 /*	background-image: url(../images/wrapperBG_personalPages.gif);
 	background-repeat: repeat-y; */
@@ -39,6 +39,11 @@ a:hover {
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
+}
+@media only screen and (max-width: 740px) { /* for mobile devices with screen<=740px wide */
+  #wrapper {
+    width: 100%;
+  }
 }
 #banner {
 	/* width: 780px; */ /* changed */
