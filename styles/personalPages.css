@@ -42,7 +42,8 @@ a:hover {
 }
 @media only screen and (max-width: 740px) { /* for mobile devices with screen<=740px wide */
   #wrapper {
-    width: 100%;
+    /* width: 100%; */
+    max-width: 9999px;
   }
   body {
     font-size: 100%; /* make bigger? */
