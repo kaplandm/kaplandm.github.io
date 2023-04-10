@@ -29,8 +29,9 @@ a:hover {
         background-color: #F1B82D;
 }
 #wrapper {
-	/* width: 640px; */ /* was: 780px */
-      max-width: 640px; /* new, replaces width, so auto sizes on mobile...hopefully? */
+	width: 640px; /* was: 780px */
+	/* width: inherit; */
+      /* max-width: 640px;*/ /* new, replaces width, so auto sizes on mobile...hopefully? */
 	text-align: left;
 /*	background-image: url(../images/wrapperBG_personalPages.gif);
 	background-repeat: repeat-y; */
@@ -40,10 +41,11 @@ a:hover {
 	margin-left: auto;
 	position: relative;
 }
-@media only screen and (max-width: 740px) { /* for mobile devices with screen<=740px wide */
+@media (max-width: 640px) { /* for mobile devices with screen<=740px wide */
   #wrapper {
     /* width: 100%; */
-    max-width: 9999px;
+    /* max-width: 9999px; */
+    width: inherit;
   }
   body {
     font-size: 100%; /* make bigger? */
@@ -51,7 +53,8 @@ a:hover {
 }
 #banner {
 	/* width: 780px; */ /* changed */
-      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
+      /* max-width: 100%; */ /* new, replaces width, so auto sizes on mobile...hopefully? */
+	width: 640px;
 	height: 150px;  /* changed */
 	background-image: url(../images/bannerBG_personalPages.jpg);
 	background-repeat: no-repeat;
@@ -77,8 +80,9 @@ a:hover {
 	display: block;
 }
 #content {
-	/* width: 640px; */ /* was: 780px */
-      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
+	width: 640px; /* was: 780px */
+      /* max-width: 100%; */ /* new, replaces width, so auto sizes on mobile...hopefully? */
+	/* width: 100%; */
 	clear: both;
 	position: relative;
 	overflow: auto;
@@ -102,7 +106,8 @@ td {
 }
 #footer {
 	/* width: 640px; */ /* was: 780px */
-      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
+      /* max-width: 100%; */ /* new, replaces width, so auto sizes on mobile...hopefully? */
+	width: 100%;
 	height: 30px; /* UCSD: 142px */
 	background-color: #F1B82D; /* was: CCCC99 */ /* UCSD: #ffffff */
 /*	background-image: url(../images/footerBG.jpg); */
@@ -139,7 +144,8 @@ td {
 }
 .contentClearingDiv { /* This also provides the bottom margin for the content div */
 	/* width: 640px; */ /* was: 780px */
-      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
+      /* max-width: 100%; */ /* new, replaces width, so auto sizes on mobile...hopefully? */
+	width: 100%;
 	height: 1px;
 	clear: both;
 }
@@ -306,6 +312,17 @@ table {
 	line-height: 1.4em;  /* was 1.125em */
 	font-weight: normal;
 	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
+}
+@media (max-width: 640px) { /* for mobile devices with screen<=640px wide */
+  #personalInfo h2 {
+	font-size: 1.2em;
+	line-height: 1.2em;  /* was 1.125em */
+	font-weight: normal;
+	color: #000000;
+  }
+  #personalInfo p {
+    font-size: 1em;
+  }
 }
 #vitals {
 	padding: 30px 60px 12px 60px; /* UCSD: 30px 60px 12px 60px */
