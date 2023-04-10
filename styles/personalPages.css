@@ -44,6 +44,9 @@ a:hover {
   #wrapper {
     width: 100%;
   }
+  body {
+    font-size: 100%; /* make bigger? */
+  }
 }
 #banner {
 	/* width: 780px; */ /* changed */
