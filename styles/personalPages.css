@@ -292,16 +292,16 @@ table {
 }
 @media (max-width: 640px) { /* for mobile devices with screen<=640px wide */
   .navList li a {
-    font-size: 4vw;
+    font-size: 4.3vw;
   }
   #personalInfo h1 {
-	font-size: 4vw; /* usually 2em */
+	font-size: 3.8vw; /* usually 2em */
   }
   #personalInfo h2 {
 	font-size: 3vw; /* usually 1.2em */
   }
   #personalInfo p {
-    font-size: 0.8em;
+    font-size: 2.5vw;
   }
 }
 #vitals {
