@@ -10,7 +10,7 @@
 	
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif; /* changed from UCSD Helvetica */
-	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating */
+	font-size: 62.5%; /* We will use a 10 pixel baseline font size for ease of calculating; that is, 1em=10px */
 	background-color: #000000; /* changed from #000024 */ /* changed from UCSD */
 	margin-top: 35px;
 	color: #000000;
@@ -29,7 +29,8 @@ a:hover {
         background-color: #F1B82D;
 }
 #wrapper {
-	width: 640px; /* was: 780px */
+	/* width: 640px; */ /* was: 780px */
+      max-width: 640px; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	text-align: left;
 /*	background-image: url(../images/wrapperBG_personalPages.gif);
 	background-repeat: repeat-y; */
@@ -40,7 +41,8 @@ a:hover {
 	position: relative;
 }
 #banner {
-	width: 780px; /* changed */
+	/* width: 780px; */ /* changed */
+      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	height: 150px;  /* changed */
 	background-image: url(../images/bannerBG_personalPages.jpg);
 	background-repeat: no-repeat;
@@ -66,7 +68,8 @@ a:hover {
 	display: block;
 }
 #content {
-	width: 640px; /* was: 780px */
+	/* width: 640px; */ /* was: 780px */
+      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	clear: both;
 	position: relative;
 	overflow: auto;
@@ -89,7 +92,8 @@ td {
 	padding-bottom:4px;
 }
 #footer {
-	width: 640px; /* was: 780px */
+	/* width: 640px; */ /* was: 780px */
+      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	height: 30px; /* UCSD: 142px */
 	background-color: #F1B82D; /* was: CCCC99 */ /* UCSD: #ffffff */
 /*	background-image: url(../images/footerBG.jpg); */
@@ -125,7 +129,8 @@ td {
 	color: #000000; /* was: 990000 */ /* was: 0033CC */
 }
 .contentClearingDiv { /* This also provides the bottom margin for the content div */
-	width: 640px; /* was: 780px */
+	/* width: 640px; */ /* was: 780px */
+      max-width: 100%; /* new, replaces width, so auto sizes on mobile...hopefully? */
 	height: 1px;
 	clear: both;
 }
@@ -176,18 +181,20 @@ h2, h3, h4, h5, h6, blockquote {
 }
 */
 h1 {
-	font-size: 150%;
+	font-size: 2em; /* was 150% */
 	margin-top: 0px;
 	color: #000000;
 }
 h2 {
-	font-size: 120%;
+	font-size: 1.6em; /* was 120% */
 	color: #000000; /* was: 990000 */
 }
 h3,h4,h6 {
+	font-size: 1.4em; /* was missing */
 	color: #000000; /* was: 990000 */
 }
-h5{font-size: 100%;
+h5 {
+	font-size: 1.4em; /* was 100% */
 	color: #000000; /* was: 990000 */
 }
 #content p {
@@ -252,7 +259,7 @@ table {
 	line-height: 18px; /* was: 18px */
 	height: 18px; /* was: 18px */
 	margin-bottom: 9px;
-     margin-top: 20px; /* was: missing */
+	margin-top: 20px; /* was: missing */
 }
 .navList li {
 	height: 18px; /* was: 18px */
@@ -265,8 +272,10 @@ table {
 	padding-left: 10; /* was: 0 */
 }
 .navList li a {
-	font-size: 36px; /* was: 13px */
-     color: #990000; /* was: missing */
+	/* font-size: 3.35em; */ /* was: 13px, then 36px */
+	font-size: 2vw;
+	font-weight: normal;
+	color: #990000; /* was: missing */
 }
 #personalInfo {
 	padding: 0;
@@ -276,6 +285,12 @@ table {
 	border: solid 1px #e4e4e4; 
 	padding: 4px;
 	margin: 25px 25px 10px 55px; /* UCSD: 25px 25px 10px 55px */
+}
+#personalInfo h2 {
+	font-size: 1.6em;
+	line-height: 1.4em;  /* was 1.125em */
+	font-weight: normal;
+	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
 }
 #vitals {
 	padding: 30px 60px 12px 60px; /* UCSD: 30px 60px 12px 60px */
