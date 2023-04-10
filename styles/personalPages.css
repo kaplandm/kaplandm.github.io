@@ -286,7 +286,13 @@ table {
 	padding: 4px;
 	margin: 25px 25px 10px 55px; /* UCSD: 25px 25px 10px 55px */
 }
-#personalInfo h2 {
+#personalInfo h1 { /* was: missing */
+	font-size: 2.0em;
+	line-height: 1.4em;
+	font-weight: bold;
+	color: #000000; 
+}
+#personalInfo h2 { /* was missing */
 	font-size: 1.6em;
 	line-height: 1.4em;  /* was 1.125em */
 	font-weight: normal;
