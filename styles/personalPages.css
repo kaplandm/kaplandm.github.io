@@ -272,8 +272,8 @@ table {
 	padding-left: 10; /* was: 0 */
 }
 .navList li a {
-	/* font-size: 3.35em; */ /* was: 13px, then 36px */
-	font-size: 2vw;
+	font-size: 3.35em; /* was: 13px, then 36px */
+	/* font-size: 2vw; BAD: viewport includes margins */
 	font-weight: normal;
 	color: #990000; /* was: missing */
 }
