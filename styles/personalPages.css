@@ -248,14 +248,15 @@ table {
 .navList {
 	color: #555;
 	font-size: 9px; /* was: 9px */
-	line-height: 18px; /* was: 18px */
-	height: 18px; /* was: 18px */
+	/* line-height: 18px; */ /* was: 18px */
+	/* height: 18px; */ /* was: 18px */
 	margin-bottom: 9px;
 	margin-top: 20px; /* was: missing */
 }
 .navList li {
 	height: 18px; /* was: 18px */
-	float: left;
+	/* float: left; */
+	display: inline-block;
 	border-left: solid 1px #ccc;
 	padding: 0 38px; /* was: 0 18px */
 }
@@ -292,10 +293,14 @@ table {
 }
 @media (max-width: 640px) { /* for mobile devices with screen<=640px wide */
   .navList li a {
-    font-size: 4.5vw;
+    /* font-size: 4.5vw; */
+    font-size: 3em;
   }
   .navList li {
-	padding: 0 15px;
+	padding: 0 0 25px 0;
+      display: block;
+	clear: both;
+	padding-left: 3em;
   }
   .navList li.first {
 	padding-left: 3em;
@@ -308,6 +313,12 @@ table {
   }
   #personalInfo p {
     font-size: 2.5vw;
+  }
+  #personalInfo img {
+    width: 25%;
+  }
+  #personalInfo img {
+	margin: 25px 15px 0px 25px;
   }
 }
 #vitals {
