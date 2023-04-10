@@ -42,13 +42,14 @@ a:hover {
 	position: relative;
 }
 @media (max-width: 640px) { /* for mobile devices with screen<=740px wide */
+  body {
+    font-size: 100%; /* make bigger? */
+    max-width: 640px;
+  }
   #wrapper {
     /* width: 100%; */
     /* max-width: 9999px; */
     width: inherit;
-  }
-  body {
-    font-size: 100%; /* make bigger? */
   }
 }
 #banner {
