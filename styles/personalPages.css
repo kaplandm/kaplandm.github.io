@@ -269,11 +269,6 @@ table {
 	font-weight: normal;
 	color: #990000; /* was: missing */
 }
-@media (max-width: 640px) { /* for mobile devices with screen<=740px wide */
-  .navList li a {
-    font-size: 4vw;
-  }
-}
 #personalInfo {
 	padding: 0;
 }
@@ -296,14 +291,17 @@ table {
 	color: #000000; /* was: 990000 */ /* UCSD: #466f86 */
 }
 @media (max-width: 640px) { /* for mobile devices with screen<=640px wide */
+  .navList li a {
+    font-size: 4vw;
+  }
+  #personalInfo h1 {
+	font-size: 4vw; /* usually 2em */
+  }
   #personalInfo h2 {
-	font-size: 1.2em;
-	line-height: 1.2em;  /* was 1.125em */
-	font-weight: normal;
-	color: #000000;
+	font-size: 3vw; /* usually 1.2em */
   }
   #personalInfo p {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 #vitals {
