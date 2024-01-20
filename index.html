@@ -96,13 +96,13 @@ code {
 <br/>
 <p>
 <!-- <a href="#auctions">XXX bid_dist_inf</a><br/> -->
-<a href="#msecp">Confidence Intervals for Intentionally Biased Estimators</a><br/>
-<a href="#extrap">Conditions for Extrapolating Consumption Differences to Welfare Differences</a><br/>
 <!-- <a href="#od">Ordinal Decomposition</a><br/> -->
+<a href="#extrap">Conditions for Extrapolating Consumption Differences to Welfare Differences</a><br/>
 <a href="#osm">Multiple Testing of Ordinal Stochastic Monotonicity</a><br/>
 </p>
 <p>
 <a href="#rsd">Inference on Consensus Ranking of Distributions</a> (<i>JBES</i>)<br/>
+<a href="#msecp">Confidence Intervals for Intentionally Biased Estimators</a><br/>
 <a href="#ordinal">Comparing latent inequality with ordinal data</a> (<i>EctJ</i>)<br/>
 <a href="#distinf">Comparing distributions by multiple testing</a> (<i>JoE</i>)<br/>
 <a href="#distcomp">distcomp: Comparing distributions</a> (<i>Stata Journal</i>)<br/>
@@ -127,22 +127,6 @@ code {
 <div class="subsection">
 <h1 id="WP">Working Papers</h1>
 
-<h2 id="msecp">
-Confidence Intervals for Intentionally Biased Estimators
-</h2>
-<p>
-2023, <i>submitted</i>
-<br/>(with <a href="https://xinliu16.github.io/">Xin Liu</a>)
-</p>
-<p>
-<a href="https://drive.google.com/file/d/1HjtiR9dPWXcZ-w74spPprlx6Z1ZMumEg/view">paper</a>
- | <a href="https://drive.google.com/file/d/1a7wQkSSmEQmRj8bVwm8V_0guccQ6yFi7/view">code/tex/etc.</a>
- | <a href="bibtex.html?citekey=MSECP">.bib</a>
-</p><p>
-Simple CIs using estimators that are intentionally biased to reduce MSE (like <a href="#sivqr">sivqr</a>/<a href="#SEEIVQR">SEE-IVQR</a>).  At 95% level, improves length and coverage compared to unbiased benchmark.
-</p>
-	
-
 <h2 id="extrap">
 Conditions for Extrapolating Differences in Consumption to Differences in Welfare
 </h2>
@@ -159,16 +143,35 @@ Statistical tools can learn about consumption distributions but not directly abo
 </p>
 	
 <!--
+<h2 id="auctions">
+Finite-Sample Inference on Auction Bid Distributions
+</h2>
+<p>
+2024, <i>submitted</i>
+<br/>(with <a href="https://xinliu16.github.io/">Xin Liu</a>)
+</p>
+<p>
+<a href="https://drive.google.com/file/d/1VTOMGHYj9O3fr77qRHBDgjPHjlOPbXxH/view">paper</a>
+ | <a href="https://drive.google.com/file/d/16cdrT1JxbVoS2u8UhYV6M7GxGzX99GjW/view">code/tex/etc.</a>
+ | <a href="bibtex.html?citekey=BIDINF">.bib</a>
+</p><p>
+Finite-sample exact uniform confidence bands for the underlying bid quantile function under symmetric IPV when only the winning bid is observed.
+Interpretation in terms of bounds given auction-level unobserved heterogeneity, including some new bounds for 2nd-price auctions.
+Empirical: looking for heterogeneity across number of bidders (to assess plausibility of "exogenous participation") and other auction-level characteristics.
+</p>
+-->	
+
+<!--
 <h2 id="od">
 Ordinal Decomposition
 </h2>
 <p>
-2023, <i>submitted</i>
+2024, <i>submitted</i>
 <br/>(with <a href="https://qianjoewu.github.io/">Qian Wu</a>)
 </p>
 <p>
 <a href="https://drive.google.com/file/d/1Q9URJW0jFXCOl0n2MUVuBG5MJ8kjEbl8/view">paper</a>
- | <a href="https://drive.google.com/file/d/1NgtOEhmaUoH038ZwKHpUQ_tDt33X8rN3/view">tex/etc.</a>
+ | <a href="https://drive.google.com/file/d/1NgtOEhmaUoH038ZwKHpUQ_tDt33X8rN3/view">code/tex/etc.</a>
  | <a href="bibtex.html?citekey=OD">.bib</a>
 </p><p>
 Recommendations for decomposition (like Oaxaca&ndash;Blinder) with an ordinal outcome.
@@ -219,6 +222,23 @@ Results are more informative than an all-or-nothing test of unanimous agreement 
 The economic interpretation differs from that of CDF-based restricted stochastic dominance.
 </p>
 	
+
+<h2 id="msecp">
+Confidence Intervals for Intentionally Biased Estimators
+</h2>
+<p>
+Forthcoming, <i>Econometric Reviews</i>
+<br/>(with <a href="https://xinliu16.github.io/">Xin Liu</a>)
+</p>
+<p>
+<a href="XXX"></a>published
+ | <a href="https://drive.google.com/file/d/1HjtiR9dPWXcZ-w74spPprlx6Z1ZMumEg/view">accepted</a>
+ | <a href="https://drive.google.com/file/d/1a7wQkSSmEQmRj8bVwm8V_0guccQ6yFi7/view">code/tex/etc.</a>
+ | <a href="bibtex.html?citekey=MSECP">.bib</a>
+</p><p>
+Simple CIs using estimators that are intentionally biased to reduce MSE (like <a href="#sivqr">sivqr</a>/<a href="#SEEIVQR">SEE-IVQR</a>).  At 95% level, improves length and coverage compared to unbiased benchmark.
+</p>
+
 	
 <h2 id="kIVQR">
 <i>k</i>-Class Instrumental Variables Quantile Regression
