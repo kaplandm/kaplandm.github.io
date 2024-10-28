@@ -101,7 +101,7 @@ code {
 <p>
 <a href="#auctions">Finite-Sample Inference on Auction Bid Distributions</a><br/>
 <a href="#mono">Multiple Testing of a Function's Monotonicity</a><br/>
-<a href="#od">Ordinal Decomposition</a><br/>
+<a href="#od">Ordinal Regression and Decomposition</a><br/>
 <a href="#osm">Multiple Testing of Ordinal Stochastic Monotonicity</a><br/>
 </p>
 <p>
@@ -167,7 +167,7 @@ We develop a multiple testing procedure that can also be inverted into confidenc
 </p>
 
 <h2 id="od">
-Ordinal Decomposition
+Ordinal Regression and Decomposition
 </h2>
 <p>
 2024, <i>submitted</i>
@@ -178,9 +178,11 @@ Ordinal Decomposition
  | <a href="https://drive.google.com/file/d/1NgtOEhmaUoH038ZwKHpUQ_tDt33X8rN3/view">code/tex/etc.</a>
  | <a href="bibtex.html?citekey=OD">.bib</a>
 </p><p>
-Recommendations for decomposition (like Oaxaca&ndash;Blinder) with an ordinal outcome.
-Also: apparently decomposing the "mean" can be interpreted in terms of survival functions even if you don't believe the cardinalization(!).
-So existing empirical results from naive OB/OLS decomposition with ordinal Y can be interpreted more robustly.
+OLS and Blinder&ndash;Oaxaca decomposition with an ordinal outcome variable coded as 1,2,3,&hellip;: how to interpret?
+For OLS, prediction depends on these being true cardinal values, but description does not: the conditional "mean" function can be interpreted as a sum of conditional survival function values.
+For decomposition, the Blinder&ndash;Oaxaca estimated explained proportion is numberically equivalent to a counterfactual-based survival function decomposition using OLS (linear probability model) distribution regression to estimate the counterfactual.
+That is, the naive 1,2,3,&hellip; Blinder&ndash;Oaxaca results have a meaningful interpretation robust to any true cardinal values.
+In our empirical decomposition of rural&ndash;urban mental health differences, we describe a nonparametric estimator and compare it to Blinder&ndash;Oaxaca, which has the added advantage of easy detailed decompositions.
 </p>
 
 
